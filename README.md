@@ -1,8 +1,8 @@
 # flink
-Teste ut Confluent Platform inkl. Confluent Flink på PC med QSL og Docker
+#Teste ut Confluent Platform inkl. Confluent Flink på PC med QSL og Docker
 
 #Starte WSL (Windows Subsystem for Linux):
-På ditt Windows 11-skrivebord, skriv PowerShell i søkefeltet, velg "Run as Administrator"
+#På ditt Windows 11-skrivebord, skriv PowerShell i søkefeltet, velg "Run as Administrator"
 PS C:\Windows\system32> wsl
 
 #Starte Flink:
@@ -16,11 +16,12 @@ dahlto@v8-dell-p3520:~/cp-all-in-one/cp-all-in-one$ sudo docker exec -it flink-s
 
 #Avslutte FlinkSQL CLI:
 quit;
+
 #Avslutte FlinkSQL:
 exit
 
 #Avslutte Flink:
-sudo docker compose Down
+sudo docker compose down
 
 #Avslutte wsl:
 exit
