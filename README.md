@@ -8,3 +8,12 @@ Sørg for at vår portefølje øker mer i verdi enn noen andre, navngitte invest
 - NIKKEI
 - DAX
 - FTSE 100
+#
+Kilder
+- mest mulig som er relevant
+- nyheter
+- værvarsel
+- kalendere
+- børskurser
+- arbeidsmarkedstall
+- rentesatser fra ulike nasjonalbanker
