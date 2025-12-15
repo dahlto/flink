@@ -1,1 +1,40 @@
-aaa
+
+# .github/ISSUE_TEMPLATE/user-story.yml
+name: User story
+description: Opprett en strukturert brukerhistorie med akseptansekriterier
+title: "[US]: Som <rolle> vil jeg <mål> slik at <verdi>"
+labels: ["user-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Format:** Som <rolle> vil jeg <mål> slik at <verdi>
+  - type: textarea
+    id: story
+    attributes:
+      label: Brukerhistorie
+      description: Beskriv behovet kort
+      placeholder: "Som driftstekniker vil jeg kunne se disk I/O per VM slik at jeg kan oppdage flaskehalser tidlig."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Akseptansekriterier
+      description: BDD-stil (Given/When/Then)
+      placeholder: |
+        Gitt at VM-ene rapporterer metrikker
+        Når jeg åpner dashboardet for en VM
+        Så ser jeg disk read/write IOPS med historikk for siste 7 dager
+    validations:
+      required: true
+  - type: input
+    id: estimate
+    attributes:
+      label: Estimat (story points)
+      placeholder: "3"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioritet
+      options: ["Høy", "Middels", "Lav"]
