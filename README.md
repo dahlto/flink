@@ -1,5 +1,6 @@
 # flink
 Teste ut Confluent Platform inkl. Confluent Flink på PC med QSL og Docker
+# familieportefølje
 Sørg for at vår portefølje øker mer i verdi enn noen andre, navngitte investorer sine porteføljer.
 - NBIM
 - Berkshire Hathaway
