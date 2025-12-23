@@ -11,7 +11,7 @@ Sørg for at vår portefølje øker mer i verdi enn noen andre, navngitte invest
 #
 Kilder
 - mest mulig som er relevant
-- nyheter
+- nyheter: Bloomberg, Yahoo!Finance,...
 - værvarsel
 - kalendere
 - børskurser
