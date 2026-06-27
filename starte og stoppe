@@ -11,6 +11,9 @@ dahlto@v8-dell-p3520:~/cp-all-in-one/cp-all-in-one$ sudo docker exec -it flink-s
 #FlinkSQL CLI:
 /opt/flink/bin/sql-client.sh
 
+#Vise FlinkGUI i en nettleser:
+http://localhost:9081/#/overview
+
 #Avslutte FlinkSQL CLI:
 quit;
 #Avslutte FlinkSQL:
