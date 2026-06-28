@@ -1,1 +1,5 @@
-
+27-jun-26:
+Jeg spurte Copilot: "Jeg har Confluent Kafka og Flink i hver sine docker-containere under WSL. Jeg ønsker at Flink sender ut en strøm som sier Ja eller nei til om bading er anbefalt om 24 timer. Varselet er basert på om varslet temperatur og nedbør 24 timer fram. Hvordan kopler jeg DNMI sitt API til Kafka? Hvordan setter jeg opp ut-strømmen?"
+28-jun-26:
+Fant ut at både Confluent Kafka og -Flink startes på v8-dell.. under wsl når jeg følger oppskriften i github.com/dahlto/flink/starte og stoppe.
+Copilot rådet meg til å lage dataimport fra DNMI som en ny docker-container på samme datamaskin.
