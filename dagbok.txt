@@ -3,3 +3,6 @@ Jeg spurte Copilot: "Jeg har Confluent Kafka og Flink i hver sine docker-contain
 28-jun-26:
 Fant ut at både Confluent Kafka og -Flink startes på v8-dell.. under wsl når jeg følger oppskriften i github.com/dahlto/flink/starte og stoppe.
 Copilot rådet meg til å lage dataimport fra DNMI som en ny docker-container på samme datamaskin.
+29-jun-26:
+Jeg forsøkte, vha. Copilot, å hente værvarsling fra DNMI vha. Kafka Connect.  Første utfordring var at "github.com/jcustenborder/kafka-connect-http" er fjernet. Copilot foreslo isteden https://github.com/datamountaineer/stream-reactor/releases/download/9.0.2/kafka-connect-http-9.0.2.tar.gz
+
