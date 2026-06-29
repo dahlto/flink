@@ -1,0 +1,12 @@
+{
+  "name": "HttpSourceConnectorConnector_0",
+  "config": {
+    "connector.class": "io.confluent.connect.http.HttpSourceConnector",
+    "topic.name.pattern": "weather.raw",
+    "url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.5&lon=11.59",
+    "http.request.headers": "User-Agent: kafka-connect-demo tor.dahl@revhaug.no",
+    "http.initial.offset": "0",
+    "http.offset.mode": "simple_incrementing",
+    "request.interval.ms": "300000"
+  }
+}
