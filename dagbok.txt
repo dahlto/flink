@@ -6,9 +6,15 @@ Copilot rådet meg til å lage dataimport fra DNMI som en ny docker-container p�
 29-jun-26:
 Jeg forsøkte, vha. Copilot, å hente værvarsling fra DNMI vha. Kafka Connect.  Første utfordring var at "github.com/jcustenborder/kafka-connect-http" er fjernet. Copilot foreslo isteden https://github.com/datamountaineer/stream-reactor/releases/download/9.0.2/kafka-connect-http-9.0.2.tar.gz
 Jeg endret docker-comopose.yml som vist i dette arkivet.
-Jeg installerte HttpSourceConnector
+Jeg installerte HttpSourceConnector:
+  På WSL:
+  sudo docker exec -it connect bash
+    #svarte 2 der du kan svare 1 eller 2. Svarte "y" på resten.
+    confluent-hub install confluentinc/kafka-connect-http:1.7.0
+    confluent-hub install confluentinc/kafka-connect-http-source:latest
+Fra ControlCenter (http://localhost:9021/home/clusters):
 Jeg konfigurerte connectoren som vist i connector-met-no.json. Jeg endret "request.interval.ms" til 300000 (dvs. 5 min). 
 Jeg opprettet emnet (topic) weather.raw
 Jeg startet connectoren på nytt.
-
+Da tikket det inn data fra met.no hvert 5. minutt.
 
